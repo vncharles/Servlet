@@ -1,0 +1,45 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import entity.TinTuc;
+
+public class TinTucDAO {
+	private DataSource dataSource;
+
+	public TinTucDAO(DataSource dataSource) {
+		super();
+		this.dataSource = dataSource;
+	}
+	
+	private void close(Connection myCon, Statement myStmt, ResultSet myRs) {
+		try {
+			if (myRs != null) {
+				myRs.close();
+			}
+			if (myStmt != null) {
+				myStmt.close();
+			}
+			if (myCon != null) {
+				myCon.close();
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+	
+	public List<TinTuc> getAllByDanhMuc(int maDM) {
+		List<TinTuc> list = new ArrayList<>();
+		String sql = "select * from TINTUC where MADM="+maDM;
+		
+		return list;
+	}
+}

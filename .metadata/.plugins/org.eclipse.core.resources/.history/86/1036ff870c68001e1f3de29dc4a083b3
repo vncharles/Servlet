@@ -1,0 +1,8 @@
+package entity;
+
+public class DanhMuc {
+	private int maDM;
+	private String tenDM;
+	private String nguoiQL;
+	private String ghiChu;
+}

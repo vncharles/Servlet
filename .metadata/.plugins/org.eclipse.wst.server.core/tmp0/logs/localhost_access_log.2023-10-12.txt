@@ -1,0 +1,10 @@
+127.0.0.1 - - [12/Oct/2023:21:22:01 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:03 +0700] "GET /20005791_TranQuocTrong_StudentCourse/CourseServlet HTTP/1.1" 200 5899
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:04 +0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:04 +0700] "GET /20005791_TranQuocTrong_StudentCourse/CourseServlet;jsessionid=7DBC0CFA8322387C7E810E1D7C4E7AFD?courseId=5&function=GET_UPDATE HTTP/1.1" 200 2529
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:06 +0700] "POST /20005791_TranQuocTrong_StudentCourse/CourseServlet HTTP/1.1" 200 5240
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:10 +0700] "GET /20005791_TranQuocTrong_StudentCourse/StudentServlet HTTP/1.1" 200 6209
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:12 +0700] "GET /20005791_TranQuocTrong_StudentCourse/StudentServlet?studentId=17&function=FORM_UPDATE HTTP/1.1" 200 2432
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:18 +0700] "POST /20005791_TranQuocTrong_StudentCourse/StudentServlet HTTP/1.1" 200 6687
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:23 +0700] "GET /20005791_TranQuocTrong_StudentCourse/StudentServlet?studentId=18&function=DELETE HTTP/1.1" 200 6208
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:22:27 +0700] "GET /20005791_TranQuocTrong_StudentCourse/CourseServlet HTTP/1.1" 200 5240

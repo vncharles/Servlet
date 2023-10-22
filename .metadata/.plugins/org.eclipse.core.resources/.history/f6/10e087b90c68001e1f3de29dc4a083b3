@@ -1,0 +1,9 @@
+package entity;
+
+public class TinTuc {
+	private int maTT;
+	private String tieuDe;
+	private String noiDung;
+	private String lienKet;
+	private int maDM;
+}
